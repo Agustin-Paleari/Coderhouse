@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quattrocento Sans', sans-serif; }
+
+/* clases de colores para fondos */
+.bg-primario {
+  background-color: #597EAA;
+  border: #597EAA; }
+
+.bg-secundario {
+  background-color: #9FC5F8;
+  border: #9FC5F8; }
+
+.bg-terciario {
+  background-color: #6FA8DC;
+  border: #6FA8DC; }
+
+.placeholder-dark::placeholder {
+  color: black; }
+
+.hoverBtn:hover {
+  background-color: #6FA8DC;
+  border-color: #6FA8DC; }

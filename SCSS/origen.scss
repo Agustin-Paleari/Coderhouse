@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+// defino  Variables de colores para todo el sitio
+$primario:#597EAA;
+$secundario:#9FC5F8;
+$terciario:#6FA8DC;
+$negro:black;
+
+/* clases de colores para fondos */
+
+.bg-primario{
+    background-color: $primario;
+    border: $primario;
+}
+.bg-secundario{
+    background-color: $secundario;
+    border: $secundario;
+}
+.bg-terciario{
+    background-color: $terciario;
+    border: $terciario;
+}
+
+.placeholder-dark::placeholder{
+    color: $negro;
+}
+.hoverBtn:hover{
+    background-color: $terciario;
+    border-color: $terciario;
+}
