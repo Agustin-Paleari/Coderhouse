@@ -32,3 +32,14 @@ $negro:black;
     background-color: $terciario;
     border-color: $terciario;
 }
+
+.icono{
+    text-decoration: none;
+    color: $primario;
+    :hover{
+        color: rgb(216, 216, 216);
+    }
+    :visited{
+        color: $primario;
+    }
+}

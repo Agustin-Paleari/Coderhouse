@@ -23,3 +23,11 @@
 .hoverBtn:hover {
   background-color: #6FA8DC;
   border-color: #6FA8DC; }
+
+.icono {
+  text-decoration: none;
+  color: #597EAA; }
+  .icono :hover {
+    color: #d8d8d8; }
+  .icono :visited {
+    color: #597EAA; }
